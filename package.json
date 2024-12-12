@@ -1,0 +1,19 @@
+{
+  "name": "tarefa-evento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cleanup": "rmdir /q /s .parcel-cache dist || echo 'no cached files'",
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.2",
+    "parcel": "^2.13.2",
+    "sharp": "^0.33.5"
+  }
+}

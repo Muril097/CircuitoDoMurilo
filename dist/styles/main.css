@@ -1,0 +1,83 @@
+@import "https://fonts.googleapis.com/css2?family=Six+Caps&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Timmana&display=swap";
+.hero {
+  background-image: linear-gradient(#00000029, #000000ab), url("../hero__banner.e5206e3a.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+  padding-bottom: 128px;
+}
+
+.hero__content {
+  margin: 0 480px;
+}
+
+.hero__content__Ftitle {
+  color: #ff7300;
+  height: 500px;
+  font-family: Six Caps;
+  font-size: 480px;
+}
+
+.hero__content__Stitle {
+  color: #0000001a;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ff7300;
+  font-family: sans-serif;
+  font-size: 240px;
+}
+
+.hero__content__text {
+  color: #fff;
+  text-align: center;
+  font-family: Six Caps;
+  font-size: 96px;
+}
+
+.hero__content__text span {
+  margin-left: 64px;
+}
+
+.hero__content .infobar {
+  background-color: #fff;
+  border-radius: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  padding: 16px 24px;
+  font-family: Timmana, sans-serif;
+  display: flex;
+}
+
+.hero__content .infobar__list {
+  gap: 40px;
+  display: flex;
+}
+
+.hero__content .infobar__list__item {
+  list-style: none;
+}
+
+.hero__content .infobar__list b {
+  text-align: center;
+  height: 32px;
+  font-size: 24px;
+  display: block;
+}
+
+.hero__content .infobar__list__button {
+  color: #fff;
+  text-align: center;
+  background-color: green;
+  border-radius: 16px;
+  width: 120px;
+  height: 40px;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */
