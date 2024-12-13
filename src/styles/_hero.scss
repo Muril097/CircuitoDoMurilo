@@ -1,40 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
 
-// * {
-//     color: rgb(255, 115, 0);
-//     font-family: "Six Caps";
-//     font-size: 480px;
-//     margin: 0;
-// }
-
-// header {
-//     background-image:linear-gradient(hsla(0, 0%, 0%, .160), hwb(0 0% 100% / 0.672)), url(/src/images/hero__banner.jpeg);
-
-// }
-
-// .hero__content {
-//     margin: 0 480px;
-// }
-
-// .hero__content__Stitle {
-//     font-size: 240px;
-//     font-family:sans-serif;
-//     color: rgba(0, 0, 0, 0);
-//     -webkit-text-stroke-width: 1px;
-//     -webkit-text-stroke-color: rgb(255, 115, 0);
-// }
-
-// .infobar__list__item, b,.hero__content__text {
-//     color: aliceblue;
-//     font-size: medium;
-// }
-
-// // pegar esta ideia corrigir e deixar dentro dos padrões amanha
-
 .hero {
 
-    background-image:linear-gradient(hsla(0, 0%, 0%, .160), hwb(0 0% 100% / 0.672)), url(/src/images/hero__banner.jpeg);
+    background-image:linear-gradient(hsla(0, 0%, 0%, 0), hwb(0 0% 100%)), url(/src/images/hero__banner.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 64px;

@@ -15,5 +15,8 @@
     "@parcel/transformer-sass": "^2.13.2",
     "parcel": "^2.13.2",
     "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "leaflet-routing-machine": "^3.2.12"
   }
 }

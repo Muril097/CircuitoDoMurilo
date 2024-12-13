@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Six+Caps&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Timmana&display=swap";
 .hero {
-  background-image: linear-gradient(#00000029, #000000ab), url("../hero__banner.e5206e3a.jpeg");
+  background-image: linear-gradient(#0000, #000), url("../hero__banner.e5206e3a.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 64px;
@@ -74,6 +74,27 @@
   height: 40px;
   font-size: 32px;
   text-decoration: none;
+}
+
+.about {
+  background-color: #fd3f3f6c;
+}
+
+.about__title, .about__content {
+  text-align: center;
+}
+
+#map {
+  width: 100vw;
+  height: 360px;
+}
+
+.leaflet-right {
+  display: none;
+}
+
+.leaflet-interactive {
+  stroke: #ff7300;
 }
 
 * {
