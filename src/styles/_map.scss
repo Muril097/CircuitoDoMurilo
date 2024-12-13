@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 #map { 
     height: 360px;
     width: 100vw;
@@ -8,5 +10,5 @@
 }
 
 .leaflet-interactive {
-    stroke: rgb(255, 115, 0);
+    stroke: variaveis.$corLaranja;
 }

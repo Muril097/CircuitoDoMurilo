@@ -1,8 +1,16 @@
 @use 'hero';
 @use 'about';
 @use 'map';
+@use 'event';
+@use 'footer';
+@use 'variaveis';
 
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Timmana", sans-serif;
+    background-color: variaveis.$corDeFundo;
 }

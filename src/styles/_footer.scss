@@ -1,0 +1,34 @@
+@use 'variaveis';
+
+footer {
+
+    background-color: variaveis.$corLaranja;
+
+    * {color: variaveis.$corTexto;
+    text-decoration: none;
+    }
+
+    .fcontainer ul li , .copy, h3 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fcontainer {
+        display: flex;
+    }
+    
+    .fcontainer ul {
+        width: 33vw;
+    }
+
+    @media (max-width:767px) {
+        .fcontainer {
+            display: block;
+            justify-items: center;
+        }
+
+        .fcontainer ul {
+            margin-bottom: 16px;
+        }
+    }
+}

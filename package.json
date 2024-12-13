@@ -1,8 +1,8 @@
 {
   "name": "tarefa-evento",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "cleanup": "rmdir /q /s .parcel-cache dist || echo 'no cached files'",
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
